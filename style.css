@@ -1,0 +1,223 @@
+/* Basics */
+
+body
+{
+    margin:0px;
+    background-color:#F2F7F2;
+    font-family: "League Spartan", sans-serif;
+}
+
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --primary: #A834A8;
+    --secondary: #ef6ca7;
+    --background :#511f50;
+    --white:#FFF;
+  }
+
+.container
+{
+    margin:auto;
+    max-width:968px;
+    display:flex;
+    flex-direction:column;
+    height:100vh;
+    align-items:center;
+    gap:40px;
+
+}
+
+
+/* End Basics */
+
+
+/*Start*/
+
+.infos
+{
+    display:flex;
+    flex-direction:row;
+}
+
+.infos > div
+{
+    flex:1;
+}
+
+.intro
+{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    
+
+}
+
+
+.intro h1
+{
+    max-width:80%;
+    font-size:50px;
+    color:var(--background)
+}
+
+.intro p 
+{
+    max-width:80%;
+    font-size:15px;
+    margin-top:-20px;
+    color:var(--primary);
+    font-weight:500;
+
+
+
+}
+
+
+.rating
+{
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    gap:30px;
+}
+
+.review
+{
+    display:flex;
+    flex-direction: row;
+    font-weight:700;
+    align-items: center;
+    gap:-100px;
+    
+}
+.review span
+{
+   color:var(--background)
+    
+}
+
+
+
+.stars
+{
+    display:flex;
+    flex-direction:row;
+    gap:10px;
+    margin-right:50px;
+}
+
+
+#two
+{
+    margin-left:83px;
+
+}
+
+#three
+{
+    margin-left:126px;
+
+}
+
+
+.reviews
+{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    grid-gap:20px;
+
+}
+
+
+.person
+{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    background-color: var(--background);
+    padding:20px;
+    flex: 1;
+    gap:15px;
+    border-radius:10px;
+    height:200px;
+    
+
+
+}
+
+.avatar
+{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+    gap:30px
+}
+
+.avatar img
+{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+}
+
+
+.name
+{
+    display: flex;
+    flex-direction:column;
+}
+
+#username
+{
+    color:var(--white);
+    font-weight:500;
+}
+
+#tag
+{
+    color:var(--secondary);
+    font-weight:500;
+
+}
+
+.comment
+{
+    color:var(--white);
+    font-weight:400;
+}
+
+
+
+
+#twoo
+{
+    margin-top:15px;
+}
+
+#threee
+{
+    margin-top:25px;
+}
+
+@media (max-width:940px)
+{
+    #twoo
+{
+    margin-top:0px;
+}
+
+#threee
+{
+    margin-top:0px;
+}
+
+}

@@ -1,0 +1,68 @@
+.infos
+{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.intro
+{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+
+
+}
+
+.intro h1
+{
+    max-width:80%;
+    font-size:50px;
+    color:var(--background);
+    text-align: center;
+}
+
+
+.intro p 
+{
+    text-align: center;
+
+
+
+}
+
+
+.review
+{
+    display:flex;
+    flex-direction: row;
+    font-weight:700;
+    align-items: flex-start;
+    gap:0px;
+    justify-content:center;   
+    margin-left: 0px;
+
+    
+}
+
+
+.stars
+{
+    display:flex;
+    flex-direction:row;
+    gap:10px;
+}
+
+
+#two
+{
+    margin-left:0px;
+
+}
+
+#three
+{
+    margin-left:0px;
+
+}
