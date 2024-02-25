@@ -96,6 +96,10 @@ body
     font-weight:700;
     align-items: center;
     gap:-100px;
+    background-color:#fad4e5;
+    ;
+    padding:10px;
+    border-radius:5px;
     
 }
 .review span
@@ -123,7 +127,7 @@ body
 
 #three
 {
-    margin-left:126px;
+    margin-left:100px;
 
 }
 
@@ -148,8 +152,7 @@ body
     gap:15px;
     border-radius:10px;
     height:200px;
-    width:290px;
-    margin: 0 auto;
+    
 
 
 }
