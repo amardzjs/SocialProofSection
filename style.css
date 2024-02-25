@@ -148,7 +148,8 @@ body
     gap:15px;
     border-radius:10px;
     height:200px;
-    
+    width:250px;
+    margin: 0 auto;
 
 
 }
